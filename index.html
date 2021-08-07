@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<title>Верстаем Flex</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__logo">
+						<img src="image/fantasy_logo.jpg" alt="">
+					</div>
+					<div class="header__menu">
+						<ul class="header__list">
+							<li><a href="#" class="header__link">Главная</a></li>
+							<li><a href="#" class="header__link">Библиотека</a></li>
+							<li><a href="#" class="header__link">Новости</a></li>
+							<li><a href="#" class="header__link">Форум</a></li>
+							<li><a href="#" class="header__link">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="header__burger">
+							<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="content">
+			<div class="world">
+				<div class="container">
+					<div class="world__body">
+						<div class="world__text">
+							<h1 class="world__title">Мир Фэнтези</h1>
+							<ul class="world__list">
+								<li><a href="#all__item1" class="world__link">Альтернативная история</a></li>
+								<li><a href="#all__item2" class="world__link">Попаданцы</a></li>
+								<li><a href="#all__item3" class="world__link">Технофэнтези</a></li>
+								<li><a href="#all__item4" class="world__link">Романтический фэнтези</a></li>
+								<li><a href="#all__item5" class="world__link">Городское фэнтези</a></li>
+							</ul>
+						</div>
+						<div class="world__img">
+							<img src="image/fantasy_world.jpg" alt="мир фэнтези">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="what">
+				<div class="container">
+					<div class="what__title title">Что такое фэнтези?</div>
+					<div class="what__body">
+						<div class="what_image">
+							<img src="image/fantasy_what.jpg" alt="фэнтези">
+						</div>
+						<div class="what__text">
+							<p>Фэ́нтези (от англ. fantasy — «фантазия») — жанр фантастической литературы, основанный на использовании мифологических и сказочных мотивов. </p>
+							<p>Произведения фэнтези чаще всего напоминают историко-приключенческий роман, действие которого происходит в вымышленном мире, близком к реальному Средневековью, герои которого сталкиваются со сверхъестественными явлениями и существами. </p>
+							<p>В отличие от научной фантастики, фэнтези не стремится объяснить мир, в котором происходит действие произведения, с точки зрения науки. Сам этот мир существует гипотетически, часто его местоположение относительно нашей реальности никак не оговаривается: то ли это параллельный мир, то ли другая планета, а его физические законы могут отличаться от земных. В таком мире может быть реальным существование богов, колдовства, мифических существ (драконы, эльфы, гномы, тролли, гоблины, кентавры и тд), привидений и любых других фантастических сущностей. В то же время принципиальное отличие чудес фэнтези от их сказочных аналогов в том, что они являются нормой описываемого мира и действуют системно, как законы природы.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="all">
+				<div class="container">
+					<div class="all__body">
+						<div class="all__title title">Все о фэнтези</div>
+						<div class="all__items">
+							<div class="all__item">
+								<div class="item__body">
+									<div class="item__image">
+										<img src="image/fantasy_1.jpg" alt="фэнтези">
+									</div>
+									<div class="item__text">
+										<h3 id="all__item1">Альтернативная история</h3>
+										<p>Альтернати́вная исто́рия (АИ) — жанр фантастики, посвящённый изображению реальности, которая могла бы быть, если бы история в один из своих переломных моментов (точек бифуркации, или точек развилки) пошла по другому пути.</p>
+										<p>В произведениях, созданных в жанре альтернативной истории, непременным элементом сюжета является изменение хода истории в прошлом (относительно времени создания произведения). Случившееся может быть связано с широко известными историческими событиями или историческими личностями, а может казаться, на первый взгляд, малозначительным. В результате этого изменения происходит «разветвление» истории — события начинают развиваться по-другому. </p>
+									</div>
+								</div>
+							</div>
+							<div class="all__item">
+								<div class="item__body">
+									<div class="item__image">
+										<img src="image/fantasy_2.jpg" alt="фэнтези">
+									</div>
+									<div class="item__text">
+										<h3 id="all__item2">Попаданцы</h3>
+										<p>«Попаданчество» — распространённый приём фантастической литературы, связанный с внезапным переносом героя в прошлое, будущее, на другую планету, в параллельный мир или в мир художественного произведения (как правило, видеоигры). Не следует смешивать этот приём с родственной ему хронооперой, где описывается целенаправленное воздействие человека на прошлое с целью изменения настоящего.</p>
+										<p>Используется обычно одна из двух схем переноса: герой переносится в своём теле или его сознание переносится в тело обитателя прошлого или другого мира. Первый вариант, как правило, требует от попаданца специальной подготовки (физической и/или исторической).</p>
+									</div>
+								</div>
+							</div>
+							<div class="all__item">
+								<div class="item__body">
+									<div class="item__image">
+										<img src="image/fantasy_4.jpg" alt="фэнтези">
+									</div>
+									<div class="item__text">
+										<h3 id="all__item3">Технофэнтези</h3>
+										<p>Технофэнтези (англ. Technofantasy, Technomancy) — специфический жанр фантастики, поджанр фэнтези, описывающий миры, где технологические достижения соседствуют с проявлениями магии, или где наука и магия трансформируются друг в друга.</p>
+										<p>ями, а может казаться, на первый взгляд, малозначительным. В результате этого изменения происходит «разветвление» истории — события начинают развиваться по-другому. </p>
+									</div>
+								</div>
+							</div>
+							<div class="all__item">
+								<div class="item__body">
+									<div class="item__image">
+										<img src="image/fantasy_4.jpg" alt="фэнтези">
+									</div>
+									<div class="item__text">
+										<h3 id="all__item4">Романтический фэнтези</h3>
+										<p>Романтическое фэнтези - это поджанр из фантастики , описывающий фэнтезийный рассказ с использованием многих элементов и условностей жанра рыцарского романа.</p>
+										<p>Одна из ключевых особенностей романтических фэнтези - это сосредоточение на отношениях, социальных, политических и романтических. </p>
+									</div>
+								</div>
+							</div>
+							<div class="all__item">
+								<div class="item__body">
+									<div class="item__image">
+										<img src="image/fantasy_5.jpg" alt="фэнтези">
+									</div>
+									<div class="item__text">
+										<h3 id="all__item5">Городское фэнтези</h3>
+										<p>Городское фэнтези (англ. Urban fantasy) — литературный жанр, основанный на использовании городской мифологии. События протекают в настоящем мире в соединении с элементами фэнтези (прибытие инопланетян или неких мифологических тварей, сосуществование или противостояние человека и паранормальных существ, прочие изменения в городском порядке).</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-book">
+				<div class="container">
+					<div class="top-book__title title">ТОП продаж</div>
+					<div class="top-book__container">
+						<div class="top-book__body">
+							<div class="top-book__colums">
+								<div class="top-book__item">
+									<div class="top-book__subtitle">Роман Злотников</div>
+									<div class="top-book__image">
+										<img src="image/book_1.jpg" alt="book">
+									</div>
+									<div class="top-book__name">
+										<p>Генерал-адмирал</p>
+										<p>Книга 1</p>
+									</div>
+									<div class="top-book__text">
+										Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Perferendis officiis iusto, libero.
+									</div>
+									<a href="#" class="top-book__btn">Купить</a>
+								</div>
+							</div>
+							<div class="top-book__colums">
+								<div class="top-book__item">
+									<div class="top-book__subtitle">Алексей Пехов</div>
+									<div class="top-book__image">
+										<img src="image/book_2.png" alt="book">
+									</div>
+									<div class="top-book__name">
+										<p>Крадущийся в тени</p>
+										<p>Книга 1</p>
+									</div>
+									<div class="top-book__text">
+										Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Perferendis officiis iusto, libero.
+									</div>
+									<a href="#" class="top-book__btn">Купить</a>
+								</div>
+							</div>
+							<div class="top-book__colums">
+								<div class="top-book__item">
+									<div class="top-book__subtitle">Алексей Пехов</div>
+									<div class="top-book__image">
+										<img src="image/book_3.jpg" alt="book">
+									</div>
+									<div class="top-book__name">
+										<p>Страж</p>
+										<p>Книга 1</p>
+									</div>
+									<div class="top-book__text">
+										Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quisquam architecto eius placeat quis quibusdam praesentium. Eum excepturi, rem ipsum suscipit repudiandae pariatur minima quasi, odit impedit cumque laborum dolorum, sequi exercitationem.
+									</div>
+									<a href="#" class="top-book__btn">Купить</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="myMap"></div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__body">
+					<div class="footer__copy">Copy 2021</div>
+					<ul class="footer__contacts">
+						<li><a href="#">@fantazy_world</a></li>
+						<li><a href="#">+38(066)3411479</a></li>
+						<li><a href="#">fantasy@gmail.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq4kB-2DPu62vvzYFpX9KdIKP7m5vHiSE&callback=initMap">
+	</script>
+</body>
+</html>
