@@ -3,10 +3,13 @@ $(document).ready(function(){
 	$('.header__burger').click(function(event) {
 		$('.header__burger, .header__menu').toggleClass('active');
 		$('body').toggleClass('lock');
-
 	});
 });
 
+//Slike Slider
+$(document).ready(function(){
+	$('.slider').slick();
+});
 //MAPS
 function initMap() {
 	var myLatlng = new google.maps.LatLng(49.98967, 36.208309);
