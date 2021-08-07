@@ -14,27 +14,27 @@ function initMap() {
 	var myOptions = {
 		zoom: 7,
 		center: myLatlng,
-//		styles: [
-//		{
-//		stylers: [
-//		{ hue: "#ff8d8d" },
-//		{ saturation: -20 }
-//		]
-//		},{
-//		featureType: "road",
-//		elementType: "geometry",
-//		stylers: [
-//		{ lightness: 100 },
-//		{ visibility: "simplified" }
-//		]
-//		},{
-//		featureType: "poi.business",
-//		elementType: "labels",
-//		stylers: [
-//		{ visibility: "off" }
-//		]
-//		}
-//		]
+		styles: [
+		{
+		stylers: [
+		{ hue: "#ff8d8d" },
+		{ saturation: -20 }
+		]
+		},{
+		featureType: "road",
+		ementType: "geometry",
+		stylers: [
+		{ lightness: 100 },
+		{ visibility: "simplified" }
+		]
+		},{
+		featureType: "poi.business",
+		elementType: "labels",
+		stylers: [
+		{ visibility: "off" }
+		]
+		}
+		]
 	}
 	var myMap = new google.maps.Map(myElement, myOptions); 
 	addMarker ({
