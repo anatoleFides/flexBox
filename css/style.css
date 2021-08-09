@@ -481,7 +481,7 @@ body{
 }
 @media (min-width: 750px){
 	.top-book__colums {
-		flex: 0 1 33.3333%;
+		flex: 0 0 33.3333%;
 	}
 }
 @media (max-width: 750px){
@@ -500,6 +500,17 @@ body{
 	.top-book__body{
 		flex-direction: column;
 	}
+}
+
+/*SLIDER*/
+.slider{
+	/*min-width: 0;*/
+}
+.slick-list {
+	overflow: hidden;
+}
+.slick-track{
+	display: flex;
 }
 
 /*MAP*/
