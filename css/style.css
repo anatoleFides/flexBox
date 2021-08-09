@@ -503,15 +503,21 @@ body{
 }
 
 /*SLIDER*/
-.slider__section {}
-.slider__title {
-	
+.slider__section {
+	background: #DCDCDC;
+	padding: 0 0 50px 0;
 }
-.slider {}
+.slider__title {
+	padding: 50px 0 30px 0;
+	color: #fff;
+}
+.slider {
+	position: relative;
+}
 .slider_item {}
 .slider_item img{
 	display: block;
-	max-width: 500px;
+	max-width: 450px;
 }
 .slick-list {
 	overflow: hidden;
@@ -519,6 +525,25 @@ body{
 .slick-track{
 	display: flex;
 }
+/* Стрелка */
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 0;
+	z-index: 10;
+	width: 30px;
+	height: 60px;
+}
+.slider .slick-arrow.slick-prev{
+	left: -60px;
+	background: url('../image/arrows/arrow_left.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: -60px;
+	background: url('../image/arrows/arrow_right.svg') 0 0 / 100% no-repeat;
+}
+.slick-arrow.slick-disabled{}
 
 /*MAP*/
 #myMap{
