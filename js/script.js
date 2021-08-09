@@ -8,7 +8,27 @@ $(document).ready(function(){
 
 //Slike Slider
 $(document).ready(function(){
-	$('.slider').slick();
+	$('.slider').slick({
+		dots:true,
+		adaptiveHeight:true,
+		slidesToShow:2,
+		slidesToScroll:2,
+		speed: 400,
+		easing: 'ease',
+		infinite:true,
+		initialSlide:3,
+		autoplay:true,
+		autoplaySpeed:2000,
+		pauseOnFocus:true,
+		pauseOnHover:true,
+		pauseOnDotsHover:true,
+		draggable:false,
+		swipe:true,
+		touchThreshold:7,
+		touchMove:true,
+
+
+	});
 });
 //MAPS
 function initMap() {
