@@ -429,6 +429,7 @@ body{
 	background: #F0E68C;
 	border: 2.5px solid #9ACD32;
 	border-radius: 5px;
+	min-width: 0; /*для слайдера slick*/
 }
 .top-book__subtitle {
 	align-self: center;
