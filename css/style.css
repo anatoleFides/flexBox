@@ -520,12 +520,15 @@ body{
 .slider_item img{
 	display: block;
 	max-width: 470px;
+	height: 100%;
+	object-fit: cover;
 }
 .slick-list {
 	overflow: hidden;
 }
 .slick-track{
 	display: flex;
+	justify-content: space-around;
 }
 /* Стрелка */
 .slider .slick-arrow{
@@ -553,6 +556,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 20px 0 0 0;
 }
 .slider .slick-dots li{
 	list-style: none;
@@ -560,13 +564,13 @@ body{
 }
 .slider .slick-dots li.slick-active button{
 	background: transparent;
-	border: 2px solid #32CD32;
+	border: 2px solid #fff;
 }
 .slider .slick-dots li button{
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	background: #32CD32;
+	background: #fff;
 	font-size: 0;
 }
 /*MAP*/
