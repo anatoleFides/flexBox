@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('.slider').slick({
 		dots:true,
 		adaptiveHeight:true,
-		slidesToShow:2,
+		slidesToShow:3,
 		slidesToScroll:2,
 		speed: 400,
 		easing: 'ease',
@@ -26,6 +26,18 @@ $(document).ready(function(){
 		swipe:true,
 		touchThreshold:7,
 		touchMove:true,
+		responsive:[
+			{
+				breakpoint: 750,
+				settings: {
+					slidesToShow:2
+				},
+				breakpoint: 500,
+				settings: {
+					slidesToShow:1
+				}
+			}
+		]
 
 
 	});
