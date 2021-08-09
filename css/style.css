@@ -481,7 +481,7 @@ body{
 }
 @media (min-width: 750px){
 	.top-book__colums {
-		flex: 0 0 33.3333%;
+		flex: 0 1 33.3333%;
 	}
 }
 @media (max-width: 750px){
@@ -503,8 +503,15 @@ body{
 }
 
 /*SLIDER*/
-.slider{
-	/*min-width: 0;*/
+.slider__section {}
+.slider__title {
+	
+}
+.slider {}
+.slider_item {}
+.slider_item img{
+	display: block;
+	max-width: 500px;
 }
 .slick-list {
 	overflow: hidden;
