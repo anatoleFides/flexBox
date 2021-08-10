@@ -37,11 +37,25 @@ $(document).ready(function(){
 			}
 		},
 		{
-		breakpoint: 600,
+		breakpoint: 550,
 		settings: {
 			slidesToShow: 1,}
 		}
 		],
+
+	});
+	$('.slider__big').slick({
+		dots:false,
+		adaptiveHeight:true,
+		slidesToShow:1,
+		slidesToScroll:1,
+		speed: 300,
+		infinite:true,
+//		initialSlide:1,
+//		autoplay:true,
+//		autoplaySpeed:2500,
+//		centerMode: true,
+//		centerPadding: '50px',
 
 	});
 });
