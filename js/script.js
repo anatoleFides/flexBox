@@ -18,7 +18,7 @@ $(document).ready(function(){
 		infinite:true,
 		initialSlide:3,
 		autoplay:true,
-		autoplaySpeed:2000,
+//		autoplaySpeed:2500,
 		pauseOnFocus:true,
 		pauseOnHover:true,
 		pauseOnDotsHover:true,
@@ -26,19 +26,20 @@ $(document).ready(function(){
 		swipe:true,
 		touchThreshold:7,
 		touchMove:true,
-		responsive:[
-			{
-				breakpoint: 750,
-				settings: {
-					slidesToShow:2
-				},
-				breakpoint: 500,
-				settings: {
-					slidesToShow:1
-				}
-			}
-		]
-
+//		centerMode: true,
+//		centerPadding: '50px',
+		responsive: [
+		{
+		breakpoint: 800,
+		settings: {
+			slidesToShow: 2,}
+		},
+		{
+		breakpoint: 500,
+		settings: {
+			slidesToShow: 1,}
+		}
+		],
 
 	});
 });

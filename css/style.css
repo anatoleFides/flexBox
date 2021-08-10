@@ -519,17 +519,19 @@ body{
 .slider_item {}
 .slider_item img{
 	display: block;
-	max-width: 320px;
+	max-width: 350px;
 	height: 100%;
 	object-fit: cover;
+	margin: 0 auto;
 }
 .slick-list {
 	overflow: hidden;
 }
 .slick-track{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
+
 /* Стрелка */
 .slider .slick-arrow{
 	position: absolute;
