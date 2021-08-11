@@ -28,6 +28,7 @@ $(document).ready(function(){
 		touchMove:true,
 //		centerMode: true,
 //		centerPadding: '50px',
+		asNavFor: ".slider__big",
 		responsive: [
 		{
 		breakpoint: 850,
@@ -45,17 +46,11 @@ $(document).ready(function(){
 
 	});
 	$('.slider__big').slick({
+		arrows:false,
 		dots:false,
+		fade:true,
 		adaptiveHeight:true,
-		slidesToShow:1,
-		slidesToScroll:1,
-		speed: 300,
-		infinite:true,
-//		initialSlide:1,
-//		autoplay:true,
-//		autoplaySpeed:2500,
-//		centerMode: true,
-//		centerPadding: '50px',
+		asNavFor: ".slider",
 
 	});
 });

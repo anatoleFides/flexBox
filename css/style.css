@@ -519,14 +519,22 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+.slider__big{
+	position: relative;
+	z-index: 2;
+	margin: 0 0 20px 0;
+}
 @media (max-width: 550px){
 	.slider__big{
 		display: none;
 	}
 }
+.slider__big_item {
+	margin: 0 auto;
+}
 .slider__big_item img{
-	display: block;
-	max-width: 550px;
+	/*display: block;*/
+	max-width: 520px;
 	height: 100%;
 	object-fit: cover;
 }
@@ -534,8 +542,11 @@ body{
 	position: relative;
 	padding: 0 60px;
 }
+.slider_item .slick-center{
+	text-align: center;
+}
 .slider_item img{
-	display: block;
+	/*display: block;*/
 	max-width: 350px;
 	height: 100%;
 	object-fit: cover;
