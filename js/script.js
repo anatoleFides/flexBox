@@ -53,6 +53,7 @@ $(document).ready(function(){
 		asNavFor: ".slider",
 
 	});
+	$('.slider__big').slick('setPosition');
 });
 //MAPS
 function initMap() {

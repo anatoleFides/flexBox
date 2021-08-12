@@ -530,7 +530,7 @@ body{
 	}
 }
 .slider__big_item {
-	margin: 0 auto;
+	text-align: center;
 }
 .slider__big_item img{
 	/*display: block;*/
