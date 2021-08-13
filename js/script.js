@@ -12,7 +12,7 @@ $(document).ready(function(){
 		dots:true,
 		adaptiveHeight:true,
 		slidesToShow:3,
-		slidesToScroll:3,
+		slidesToScroll:1,
 		speed: 400,
 		easing: 'ease',
 		infinite:true,
@@ -26,21 +26,29 @@ $(document).ready(function(){
 		swipe:true,
 		touchThreshold:7,
 		touchMove:true,
-//		centerMode: true,
-//		centerPadding: '50px',
+		centerMode: true,
+		focusOnSelect: true,
+		centerPadding: '30px',
 		asNavFor: ".slider__big",
 		responsive: [
 		{
-		breakpoint: 850,
+		breakpoint: 1000,
 		settings: {
 			slidesToShow: 2,
 //			slidesToScroll:2,
 			}
 		},
 		{
-		breakpoint: 550,
+		breakpoint: 750,
 		settings: {
 			slidesToShow: 1,}
+		},
+				{
+		breakpoint: 530,
+		settings: {
+			slidesToShow: 1,
+			centerMode: false,
+			arrows:false}
 		}
 		],
 
@@ -49,6 +57,7 @@ $(document).ready(function(){
 		arrows:false,
 		dots:false,
 		fade:true,
+		adaptiveHeight:true,
 		adaptiveHeight:true,
 		asNavFor: ".slider",
 
